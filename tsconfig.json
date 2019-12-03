@@ -1,15 +1,28 @@
 {
-	"extends": "../../tsconfig.json",
+	"compileOnSave": true,
 	"compilerOptions": {
+		"target": "es2018",
+		"composite": true,
+		"declaration": true,
+		"noEmitOnError": true,
+		"noErrorTruncation": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"noImplicitAny": false,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"typeRoots": [
+			"../../../node_modules/@types",
+			"../../node_modules/@types",
+			"node_modules/@types"
+		],
 		"outDir": ".",
 		"declarationDir": "."
 	},
-	"references": [
-		{"path": "../array"},
-		{"path": "../combinators"},
-		{"path": "../function"},
-		{"path": "../html"},
-		{"path": "../object"},
-		{"path": "../svg"}
-	]
+	"exclude": [],
+	"references": []
 }
