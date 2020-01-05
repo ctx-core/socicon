@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "2.2.51",
+	"version": "2.2.52",
 	"description": "ctx-core socicon",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
@@ -29,7 +29,7 @@
 		"@ctx-core/array": "^15.5.4",
 		"@ctx-core/combinators": "^4.2.13",
 		"@ctx-core/function": "^10.5.37",
-		"@ctx-core/html": "^6.1.36",
+		"@ctx-core/html": "^6.1.37",
 		"@ctx-core/object": "^7.0.0",
 		"@ctx-core/svg": "^7.0.0",
 		"svelte": "^3.16.7"
