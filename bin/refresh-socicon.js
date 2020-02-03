@@ -1,27 +1,23 @@
 #!/usr/bin/env node
 require = require('esm')(module)
 const fs = require('fs')
-const { basename, dirname, join } = require('path')
-const commander = require('commander')
+const { join } = require('path')
+const { _h__param } = require('@ctx-core/cli-args')
 const { Parser } = require('htmlparser2')
 const { promisify } = require('util')
 const { keys } = require('@ctx-core/object')
 const { map, sort } = require('@ctx-core/array')
-const resolve = require('resolve')
 const readFile = promisify(fs.readFile)
 const writeFile = promisify(fs.writeFile)
 main()
 async function main() {
-	const dir = _dir()
+	const { dir } = _opts()
 	const path__svg = join(dir, `font/socicon.svg`)
 	const path__root = join(__dirname, '/../')
 	const h1__html__h0__name__component = {}
 	await assign__h1__html__h0__name__component()
 	await write__files()
 	async function assign__h1__html__h0__name__component() {
-		const name__icon = basename(path__svg, '.svg')
-		const style = basename(dirname(path__svg)).replace('brands', 'brand')
-		let html
 		const parser = new Parser({
 			onopentag(name, attribs) {
 				const glyph_name = attribs && attribs['glyph-name']
@@ -49,20 +45,35 @@ ${h1__html__h0__name__component[name__Icon]}
 		}))
 	}
 }
-function _dir() {
-	commander
-		.option('-d, --dir <socicon-dir>', 'socicon directory path')
-	commander.parse(process.argv)
-	const a1__error__commander = _a1__error__commander()
-	if (a1__error__commander) {
-		throw a1__error__commander.join('\n')
+function _opts() {
+	const { help, dir } = _h__param(process.argv.slice(2), {
+		help: '-h, --help',
+		dir: '-d, --dir',
+	})
+	if (help) {
+		console.info(_help_msg())
+		process.exit(0)
 	}
-	return commander.dir
+	const error_a1 = _error_a1(dir)
+	if (error_a1) {
+		throw error_a1.join('\n')
+	}
+	return { dir }
 }
-function _a1__error__commander() {
-	const a1__error = []
-	if (!commander.dir) {
-		a1__error.push('missing --dir <socicon-dir>')
+function _help_msg() {
+	return `
+Usage: refresh-socicon.js -d <dir>
+
+Options:
+
+-h, --help  This help message
+-d, --dir   Socicon directory path
+		`.trim()
+}
+function _error_a1(dir) {
+	const error_a1 = []
+	if (!dir) {
+		error_a1.push('missing --dir <socicon-dir>')
 	}
-	return a1__error.length && a1__error
+	return error_a1.length && error_a1
 }
