@@ -32,7 +32,7 @@
 		"@ctx-core/html": "^6.1.55",
 		"@ctx-core/object": "^8.0.4",
 		"@ctx-core/svg": "^7.0.16",
-		"svelte": "^3.19.1"
+		"svelte": "^3.19.2"
 	},
 	"devDependencies": {
 		"@ctx-core/cli-args": "^3.1.41",
