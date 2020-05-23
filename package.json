@@ -41,7 +41,7 @@
 		"htmlparser2": "^4.1.0",
 		"resolve": "^1.17.0",
 		"socicon": "^3.0.5",
-		"typescript": "^3.9.2"
+		"typescript": "^3.9.3"
 	},
 	"gitHead": "66a3abb3335bba7b6a5721d560b270f60e568b5d"
 }
