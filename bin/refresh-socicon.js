@@ -1,12 +1,11 @@
 #!/usr/bin/env node
-require = require('esm')(module)
-const fs = require('fs')
-const { join } = require('path')
-const { _h__param } = require('@ctx-core/cli-args')
-const { Parser } = require('htmlparser2')
-const { promisify } = require('util')
-const { keys } = require('@ctx-core/object')
-const { map, sort } = require('@ctx-core/array')
+import fs from 'fs'
+import { join } from 'path'
+import { _h__param } from '@ctx-core/cli-args'
+import { Parser } from 'htmlparser2'
+import { promisify } from 'util'
+import { keys } from '@ctx-core/object'
+import { map, sort } from '@ctx-core/array'
 const readFile = promisify(fs.readFile)
 const writeFile = promisify(fs.writeFile)
 main()
