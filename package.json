@@ -2,6 +2,7 @@
 	"name": "@ctx-core/socicon",
 	"version": "2.2.100",
 	"description": "ctx-core socicon",
+	"type": "module",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
