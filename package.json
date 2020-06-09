@@ -32,16 +32,16 @@
 		"@ctx-core/html": "^6.1.81",
 		"@ctx-core/object": "^8.0.14",
 		"@ctx-core/svg": "^7.0.37",
-		"svelte": "^3.23.0"
+		"svelte": "^3.23.1"
 	},
 	"devDependencies": {
 		"@ctx-core/cli-args": "^3.1.52",
 		"esm": "^3.2.25",
-		"globby": "^11.0.0",
+		"globby": "^11.0.1",
 		"htmlparser2": "^4.1.0",
 		"resolve": "^1.17.0",
 		"socicon": "^3.0.5",
-		"typescript": "^3.9.3"
+		"typescript": "^3.9.5"
 	},
 	"gitHead": "e4572372eca77c0537fea2cd2dcc9ea4e4249e9c"
 }
