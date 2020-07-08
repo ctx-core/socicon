@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "2.2.116",
+	"version": "2.2.117",
 	"description": "ctx-core socicon",
 	"main": "index.js",
 	"module": "index.js",
@@ -29,16 +29,16 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^15.5.24",
-		"@ctx-core/combinators": "^4.2.17",
-		"@ctx-core/function": "^13.0.8",
-		"@ctx-core/html": "^6.1.90",
-		"@ctx-core/object": "^8.1.0",
-		"@ctx-core/svg": "^7.0.46",
+		"@ctx-core/array": "^15.5.25",
+		"@ctx-core/combinators": "^4.2.18",
+		"@ctx-core/function": "^13.0.9",
+		"@ctx-core/html": "^6.1.91",
+		"@ctx-core/object": "^8.1.1",
+		"@ctx-core/svg": "^7.0.47",
 		"svelte": "^3.24.0"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "^3.1.55",
+		"@ctx-core/cli-args": "^3.1.56",
 		"esm": "^3.2.25",
 		"globby": "^11.0.1",
 		"htmlparser2": "^4.1.0",
