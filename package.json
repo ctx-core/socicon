@@ -2,6 +2,9 @@
 	"name": "@ctx-core/socicon",
 	"version": "2.2.116",
 	"description": "ctx-core socicon",
+	"main": "index.js",
+	"module": "index.js",
+	"types": "index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
