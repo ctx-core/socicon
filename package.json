@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "2.2.164",
+	"version": "2.2.165",
 	"description": "ctx-core socicon",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -34,7 +34,7 @@
 		"@ctx-core/function": "^13.2.4",
 		"@ctx-core/html": "^6.1.116",
 		"@ctx-core/object": "^9.0.14",
-		"@ctx-core/svg": "^7.0.88",
+		"@ctx-core/svg": "^7.0.89",
 		"svelte": "^3.24.1"
 	},
 	"devDependencies": {
