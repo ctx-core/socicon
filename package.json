@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "2.2.166",
+	"version": "2.2.167",
 	"description": "ctx-core socicon",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -38,7 +38,7 @@
 		"svelte": "^3.24.1"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "^4.1.0",
+		"@ctx-core/cli-args": "^4.1.1",
 		"esm": "^3.2.25",
 		"globby": "^11.0.1",
 		"htmlparser2": "^4.1.0",
