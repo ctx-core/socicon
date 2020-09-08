@@ -30,7 +30,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^17.0.1",
-		"@ctx-core/combinators": "^4.2.22",
+		"@ctx-core/combinators": "^4.2.23",
 		"@ctx-core/function": "^14.0.1",
 		"@ctx-core/html": "^6.1.119",
 		"@ctx-core/object": "^10.0.2",
