@@ -2,6 +2,20 @@
 	"name": "@ctx-core/socicon",
 	"version": "2.2.176",
 	"description": "ctx-core socicon",
+	"keywords": [
+		"ctx-core",
+		"fontawesome"
+	],
+	"homepage": "https://github.com/ctx-core/socicon#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/socicon/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/socicon/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,43 +23,29 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/socicon/issues"
-	},
-	"keywords": [
-		"ctx-core",
-		"fontawesome"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/socicon/issues"
-	},
-	"homepage": "https://github.com/ctx-core/socicon#readme",
-	"publishConfig": {
-		"access": "public"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^17.0.4",
-		"@ctx-core/combinators": "^4.2.25",
-		"@ctx-core/function": "^14.0.3",
-		"@ctx-core/html": "^6.1.122",
-		"@ctx-core/object": "^10.0.4",
-		"@ctx-core/svg": "^7.0.97",
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/combinators": "workspace:*",
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/html": "workspace:*",
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/svg": "workspace:*",
 		"svelte": "^3.25.0"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "^4.1.7",
+		"@ctx-core/cli-args": "workspace:*",
 		"esm": "^3.2.25",
 		"globby": "^11.0.1",
 		"htmlparser2": "^4.1.0",
 		"resolve": "^1.17.0",
 		"socicon": "^3.0.5",
 		"typescript": "^4.0.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"gitHead": "c95a9b7ecbf241b54456511612b717998979350e"
 }
