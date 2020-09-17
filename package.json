@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/socicon",
-  "version": "2.2.177",
+  "version": "2.2.178",
   "description": "ctx-core socicon",
   "keywords": [
     "ctx-core",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },
