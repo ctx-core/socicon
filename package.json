@@ -36,7 +36,7 @@
 		"svelte": "3.26.0"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^6.0.8",
+		"@ctx-core/cli-args": "workspace:^6.1.0",
 		"esm": "^3.2.25",
 		"globby": "^11.0.1",
 		"htmlparser2": "^4.1.0",
