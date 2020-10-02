@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 3.0.52
+
+### Patch Changes
+
+- @ctx-core/svg@8.0.52
+
 ## 3.0.51
 
 ### Patch Changes
