@@ -1,5 +1,15 @@
 # @ctx-core/socicon
 
+## 3.0.54
+
+### Patch Changes
+
+- htmlparser2: ^4.1.0 -> ^5.0.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/svg@8.0.54
+
 ## 3.0.53
 
 ### Patch Changes
