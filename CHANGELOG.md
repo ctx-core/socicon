@@ -1,5 +1,16 @@
 # @ctx-core/socicon
 
+## 3.0.58
+
+### Patch Changes
+
+- svelte: 3.29.3 -> 3.29.4
+- htmlparser2: ^5.0.0 -> ^5.0.1
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/svg@8.0.58
+  - @ctx-core/html@7.0.24
+
 ## 3.0.57
 
 ### Patch Changes
