@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 3.0.64
+
+### Patch Changes
+
+- typescript: ^4.0.5 -> ^4.1.2
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.23
+  - @ctx-core/combinators@5.0.4
+  - @ctx-core/function@16.1.3
+  - @ctx-core/html@7.0.29
+  - @ctx-core/object@13.0.2
+  - @ctx-core/svg@8.0.64
+
 ## 3.0.63
 
 ### Patch Changes
