@@ -1,5 +1,16 @@
 # @ctx-core/socicon
 
+## 3.0.91
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.8.0
+  - @ctx-core/array@19.1.18
+  - @ctx-core/object@15.0.15
+  - @ctx-core/svg@9.0.14
+  - @ctx-core/html@7.1.20
+
 ## 3.0.90
 
 ### Patch Changes
