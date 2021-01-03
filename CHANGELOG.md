@@ -1,5 +1,12 @@
 # @ctx-core/socicon
 
+## 3.0.100
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/html@7.1.26
+
 ## 3.0.99
 
 ### Patch Changes
