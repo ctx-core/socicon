@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 3.0.99
+
+### Patch Changes
+
+- @ctx-core/html@7.1.25
+
 ## 3.0.98
 
 ### Patch Changes
