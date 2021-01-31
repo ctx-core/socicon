@@ -1,6 +1,6 @@
 import {
 	_get as _svg_get, _get_opts_type, _get_type, get_type,
-} from '@ctx-core/svg/[icon_name].svg'
+} from '@ctx-core/svg'
 import { join } from 'path'
 import { promisify } from 'util'
 const resolve = promisify(require('resolve'))
