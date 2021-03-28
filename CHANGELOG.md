@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 4.0.50
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.1
+  - @ctx-core/combinators@6.0.6
+  - @ctx-core/function@17.4.2
+  - @ctx-core/html@8.0.19
+  - @ctx-core/object@17.4.1
+  - @ctx-core/svg@10.2.18
+
 ## 4.0.49
 
 ### Patch Changes
