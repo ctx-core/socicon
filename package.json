@@ -33,7 +33,7 @@
 		"@ctx-core/html": "workspace:^8.0.21",
 		"@ctx-core/object": "workspace:^17.4.3",
 		"@ctx-core/svg": "workspace:^10.2.20",
-		"svelte": "3.35.0"
+		"svelte": "3.37.0"
 	},
 	"devDependencies": {
 		"@ctx-core/cli-args": "workspace:^7.2.13",
