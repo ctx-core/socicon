@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 4.0.88
+
+### Patch Changes
+
+- update dependencies
+
 ## 4.0.87
 
 ### Patch Changes
