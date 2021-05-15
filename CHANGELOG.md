@@ -1,5 +1,21 @@
 # @ctx-core/socicon
 
+## 4.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.0
+  - @ctx-core/combinators@6.1.0
+  - @ctx-core/function@17.9.0
+  - @ctx-core/html@8.1.0
+  - @ctx-core/object@17.6.0
+  - @ctx-core/svg@10.3.0
+
 ## 4.0.88
 
 ### Patch Changes
