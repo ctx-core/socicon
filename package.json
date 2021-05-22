@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "4.1.6",
+	"version": "4.1.7",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -27,16 +27,16 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^20.3.5",
+		"@ctx-core/array": "workspace:^20.3.6",
 		"@ctx-core/combinators": "workspace:^6.1.2",
 		"@ctx-core/function": "workspace:^17.9.2",
-		"@ctx-core/html": "workspace:^8.1.5",
-		"@ctx-core/object": "workspace:^18.0.1",
-		"@ctx-core/svg": "workspace:^10.3.7",
+		"@ctx-core/html": "workspace:^8.1.6",
+		"@ctx-core/object": "workspace:^18.0.2",
+		"@ctx-core/svg": "workspace:^10.3.8",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^7.3.5",
+		"@ctx-core/cli-args": "workspace:^7.3.6",
 		"esm": "^3.2.25",
 		"globby": "^11.0.3",
 		"htmlparser2": "^6.1.0",
