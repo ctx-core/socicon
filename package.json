@@ -32,7 +32,7 @@
 		"@ctx-core/function": "workspace:^17.9.2",
 		"@ctx-core/html": "workspace:^8.1.7",
 		"@ctx-core/object": "workspace:^18.0.3",
-		"@ctx-core/svg": "workspace:^10.3.9",
+		"@ctx-core/svg": "workspace:^10.4.0",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
