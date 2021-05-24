@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 4.1.11
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.10
+  - @ctx-core/combinators@6.1.3
+  - @ctx-core/function@17.9.3
+  - @ctx-core/html@8.1.10
+  - @ctx-core/object@18.0.6
+  - @ctx-core/svg@10.4.3
+
 ## 4.1.10
 
 ### Patch Changes
