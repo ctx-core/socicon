@@ -11,9 +11,9 @@ export const _get = ((opts = {} as _get_opts_T)=>{
 		resolve:
 			opts.resolve
 			|| (
-				name__icon=>
+				(icon_name:string)=>
 					resolve(
-						join('@ctx-core/socicon/ui', `Socicon-${name__icon}.html`))
+						join('@ctx-core/socicon/ui', `Socicon-${icon_name}.html`))
 			)
 	})
 }) as _get_T

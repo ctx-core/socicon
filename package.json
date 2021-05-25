@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "4.2.2",
+	"version": "4.3.0",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -18,25 +18,27 @@
 	"author": "Brian Takita",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
-	"types": "./types/index.d.ts",
+	"types": "./dist/index.d.ts",
 	"scripts": {
-		"build": "npm run clean && npm run compile",
+		"build": "npm run clean && npm run compile && npm run symlink",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "./node_modules/.bin/tsc -b .",
+		"symlink": "./node_modules/.bin/symlink_src_assets_to_dist .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^20.4.2",
-		"@ctx-core/combinators": "workspace:^6.2.1",
-		"@ctx-core/function": "workspace:^17.10.1",
-		"@ctx-core/html": "workspace:^8.2.1",
-		"@ctx-core/object": "workspace:^18.1.1",
-		"@ctx-core/svg": "workspace:^10.5.2",
+		"@ctx-core/array": "workspace:^20.5.0",
+		"@ctx-core/combinators": "workspace:^6.3.0",
+		"@ctx-core/function": "workspace:^17.11.0",
+		"@ctx-core/html": "workspace:^8.3.0",
+		"@ctx-core/object": "workspace:^18.2.0",
+		"@ctx-core/svg": "workspace:^10.6.0",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^7.4.2",
+		"@ctx-core/cli-args": "workspace:^7.5.0",
+		"@ctx-core/ctx-core-package-tools": "workspace:^6.4.0",
 		"esm": "^3.2.25",
 		"globby": "^11.0.3",
 		"htmlparser2": "^6.1.0",

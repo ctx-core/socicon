@@ -7,7 +7,7 @@ export const _get = ((opts = {}) => {
     return _svg_get({
         fn,
         resolve: opts.resolve
-            || (name__icon => resolve(join('@ctx-core/socicon/ui', `Socicon-${name__icon}.html`)))
+            || ((icon_name) => resolve(join('@ctx-core/socicon/ui', `Socicon-${icon_name}.html`)))
     });
 });
 export const get = _get();
