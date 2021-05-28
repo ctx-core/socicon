@@ -33,11 +33,11 @@
 		"@ctx-core/function": "workspace:^17.11.1",
 		"@ctx-core/html": "workspace:^8.3.1",
 		"@ctx-core/object": "workspace:^18.2.1",
-		"@ctx-core/svg": "workspace:^10.6.4",
+		"@ctx-core/svg": "workspace:^10.6.5",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^7.5.1",
+		"@ctx-core/cli-args": "workspace:^7.6.0",
 		"@ctx-core/ctx-core-package-tools": "workspace:^6.4.2",
 		"esm": "^3.2.25",
 		"globby": "^11.0.3",
