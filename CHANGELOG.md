@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 5.0.1
+
+### Patch Changes
+
+- update dependencies
+
 ## 5.0.0
 
 ### Major Changes
