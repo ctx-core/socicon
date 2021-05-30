@@ -1,12 +1,12 @@
 import {
-	_get as _svg_get, _get_opts_T, _get_T, get_T,
+	get_ as svg_get_, get_opts__T, get__T, get_T,
 } from '@ctx-core/svg'
 import { join } from 'path'
 import { promisify } from 'util'
 const resolve = promisify(require('resolve'))
-export const _get = ((opts = {} as _get_opts_T)=>{
+export const get_ = ((opts = {} as get_opts__T)=>{
 	const { fn } = opts
-	return _svg_get({
+	return svg_get_({
 		fn,
 		resolve:
 			opts.resolve
@@ -16,5 +16,5 @@ export const _get = ((opts = {} as _get_opts_T)=>{
 						join('@ctx-core/socicon/ui', `Socicon-${icon_name}.html`))
 			)
 	})
-}) as _get_T
-export const get = _get() as get_T
+}) as get__T
+export const get = get_() as get_T

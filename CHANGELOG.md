@@ -1,5 +1,22 @@
 # @ctx-core/socicon
 
+## 5.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.0.0
+  - @ctx-core/function@18.0.0
+  - @ctx-core/html@9.0.0
+  - @ctx-core/object@19.0.0
+  - @ctx-core/svg@11.0.0
+
 ## 4.3.2
 
 ### Patch Changes
