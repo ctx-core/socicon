@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "5.0.4",
+	"version": "5.0.5",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"@ctx-core/function": "workspace:^18.0.1",
 		"@ctx-core/html": "workspace:^9.0.0",
 		"@ctx-core/object": "workspace:^19.0.1",
-		"@ctx-core/svg": "workspace:^11.0.5",
+		"@ctx-core/svg": "workspace:^11.0.6",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
