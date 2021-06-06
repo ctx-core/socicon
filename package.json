@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "5.0.16",
+	"version": "5.0.17",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -21,24 +21,24 @@
 	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile && npm run symlink",
-		"clean": "rm -f tsconfig.tsbuildinfo",
+		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"symlink": "./node_modules/.bin/symlink_src_assets_to_dist .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^21.2.5",
-		"@ctx-core/combinators": "workspace:^6.3.1",
-		"@ctx-core/function": "workspace:^18.1.1",
-		"@ctx-core/html": "workspace:^9.0.2",
-		"@ctx-core/object": "workspace:^19.1.1",
-		"@ctx-core/svg": "workspace:^11.0.25",
+		"@ctx-core/array": "workspace:^21.2.6",
+		"@ctx-core/combinators": "workspace:^6.3.2",
+		"@ctx-core/function": "workspace:^18.1.2",
+		"@ctx-core/html": "workspace:^9.0.3",
+		"@ctx-core/object": "workspace:^19.1.2",
+		"@ctx-core/svg": "workspace:^11.0.26",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^8.0.13",
-		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.12",
+		"@ctx-core/cli-args": "workspace:^8.0.14",
+		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.13",
 		"esm": "^3.2.25",
 		"globby": "^11.0.3",
 		"htmlparser2": "^6.1.0",

@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 5.0.17
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/combinators@6.3.2
+  - @ctx-core/function@18.1.2
+  - @ctx-core/html@9.0.3
+  - @ctx-core/object@19.1.2
+  - @ctx-core/svg@11.0.26
+
 ## 5.0.16
 
 ### Patch Changes
