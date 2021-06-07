@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 5.0.18
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/svg@11.0.27
+  - @ctx-core/array@21.2.7
+  - @ctx-core/combinators@6.3.3
+  - @ctx-core/function@18.1.3
+  - @ctx-core/html@9.0.4
+  - @ctx-core/object@19.1.3
+
 ## 5.0.17
 
 ### Patch Changes
