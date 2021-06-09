@@ -38,7 +38,7 @@
 	},
 	"devDependencies": {
 		"@ctx-core/cli-args": "workspace:^8.0.21",
-		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.18",
+		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.19",
 		"esm": "^3.2.25",
 		"globby": "^11.0.3",
 		"htmlparser2": "^6.1.0",
