@@ -13,8 +13,8 @@ main()
 async function main() {
 	const { dir } = _opts()
 	const path__svg = join(dir, `font/socicon.svg`)
-	const path__root = join(__dirname, '/../')
-	const h1__html__h0__name__component = {}
+	const root_path = join(__dirname, '/../')
+	const component_name_r_html = {}
 	await assign__h1__html__h0__name__component()
 	await write__files()
 	async function assign__h1__html__h0__name__component() {
@@ -23,7 +23,7 @@ async function main() {
 				const glyph_name = attribs && attribs['glyph-name']
 				if (name === 'glyph' && glyph_name) {
 					const name__component = `Socicon-${glyph_name}`
-					h1__html__h0__name__component[name__component] = `
+					component_name_r_html[name__component] = `
 <Icon viewBox="0 0 512 512" width="512" height="512" {...$$props}><path d="${attribs.d}"></path></Icon>
 						`.trim()
 				}
@@ -34,13 +34,13 @@ async function main() {
 		parser.end()
 	}
 	async function write__files() {
-		const a1__name__Icon = sort(keys(h1__html__h0__name__component))
-		await Promise.all(map(a1__name__Icon, name__Icon => {
-			writeFile(`${path__root}/ui/${name__Icon}.svelte`, `
+		const Icon_name_a = sort(keys(component_name_r_html))
+		await Promise.all(map(Icon_name_a, Icon_name => {
+			writeFile(`${root_path}/ui/${Icon_name}.svelte`, `
 <script>
 import Icon from './Icon.svelte'
 </script>
-${h1__html__h0__name__component[name__Icon]}
+${component_name_r_html[Icon_name]}
 			`.trim())
 		}))
 	}
@@ -54,9 +54,9 @@ function _opts() {
 		console.info(_help_msg())
 		process.exit(0)
 	}
-	const error_a1 = _error_a1(dir)
-	if (error_a1) {
-		throw error_a1.join('\n')
+	const error_a = error_a_(dir)
+	if (error_a) {
+		throw error_a.join('\n')
 	}
 	return { dir }
 }
@@ -70,10 +70,10 @@ Options:
 -d, --dir   Socicon directory path
 		`.trim()
 }
-function _error_a1(dir) {
-	const error_a1 = []
+function error_a_(dir) {
+	const error_a = []
 	if (!dir) {
-		error_a1.push('missing --dir <socicon-dir>')
+		error_a.push('missing --dir <socicon-dir>')
 	}
-	return error_a1.length && error_a1
+	return error_a.length && error_a
 }

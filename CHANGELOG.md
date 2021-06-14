@@ -1,5 +1,21 @@
 # @ctx-core/socicon
 
+## 6.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.0
+  - @ctx-core/combinators@7.0.0
+  - @ctx-core/function@19.0.0
+  - @ctx-core/html@10.0.0
+  - @ctx-core/object@20.0.0
+  - @ctx-core/svg@12.0.0
+
 ## 5.0.27
 
 ### Patch Changes
