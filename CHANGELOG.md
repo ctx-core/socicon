@@ -1,5 +1,13 @@
 # @ctx-core/socicon
 
+## 6.0.1
+
+### Patch Changes
+
+- remove npm run symlink
+- Updated dependencies [undefined]
+  - @ctx-core/svg@12.0.1
+
 ## 6.0.0
 
 ### Major Changes

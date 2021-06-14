@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "6.0.0",
+	"version": "6.0.1",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -20,10 +20,9 @@
 	"module": "./src/index.js",
 	"types": "./src/index.d.ts",
 	"scripts": {
-		"build": "npm run clean && npm run compile && npm run symlink",
+		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
-		"symlink": "./node_modules/.bin/symlink_src_assets_to_dist .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
@@ -33,7 +32,7 @@
 		"@ctx-core/function": "workspace:^19.0.0",
 		"@ctx-core/html": "workspace:^10.0.0",
 		"@ctx-core/object": "workspace:^20.0.0",
-		"@ctx-core/svg": "workspace:^12.0.0",
+		"@ctx-core/svg": "workspace:^12.0.1",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
