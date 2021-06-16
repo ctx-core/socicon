@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 6.0.4
+
+### Patch Changes
+
+- globby: ^11.0.3 -> ^11.0.4
+
 ## 6.0.3
 
 ### Patch Changes
