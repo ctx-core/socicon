@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 6.0.8
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.5
+  - @ctx-core/combinators@7.0.3
+  - @ctx-core/function@19.1.3
+  - @ctx-core/html@10.0.3
+  - @ctx-core/object@20.0.4
+  - @ctx-core/svg@12.0.8
+
 ## 6.0.7
 
 ### Patch Changes
