@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 6.0.12
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.9
+  - @ctx-core/combinators@7.0.7
+  - @ctx-core/function@19.1.7
+  - @ctx-core/html@10.0.7
+  - @ctx-core/object@20.0.8
+  - @ctx-core/svg@12.0.12
+
 ## 6.0.11
 
 ### Patch Changes
