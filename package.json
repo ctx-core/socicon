@@ -37,7 +37,7 @@
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^9.0.16",
+		"@ctx-core/cli-args": "workspace:^9.0.17",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.12",
 		"esm": "^3.2.25",
 		"globby": "^11.0.4",
