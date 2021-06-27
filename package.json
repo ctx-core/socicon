@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "6.0.19",
+	"version": "6.0.20",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -16,28 +16,29 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
-	"main": "./src/index.js",
-	"module": "./src/index.js",
-	"types": "./src/index.d.ts",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"scripts": {
-		"build": "npm run clean && npm run compile",
+		"build": "npm run clean && npm run copy-components && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
+		"copy-components": "cd src && find . | grep \\.svelte$ | awk '{print \"mkdir -p dirname \"$1\" && cp -f \"$1\" ../dist/\"$1}'",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run compile"
+		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^22.0.15",
-		"@ctx-core/combinators": "workspace:^7.0.8",
-		"@ctx-core/function": "workspace:^19.1.9",
-		"@ctx-core/html": "workspace:^10.0.12",
-		"@ctx-core/object": "workspace:^20.2.1",
-		"@ctx-core/svg": "workspace:^12.0.19",
+		"@ctx-core/array": "workspace:^22.0.16",
+		"@ctx-core/combinators": "workspace:^7.0.9",
+		"@ctx-core/function": "workspace:^19.1.10",
+		"@ctx-core/html": "workspace:^10.0.13",
+		"@ctx-core/object": "workspace:^20.2.2",
+		"@ctx-core/svg": "workspace:^12.0.20",
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^9.0.15",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.11",
+		"@ctx-core/cli-args": "workspace:^9.0.16",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.12",
 		"esm": "^3.2.25",
 		"globby": "^11.0.4",
 		"htmlparser2": "^6.1.0",

@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 6.0.20
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.16
+  - @ctx-core/combinators@7.0.9
+  - @ctx-core/function@19.1.10
+  - @ctx-core/html@10.0.13
+  - @ctx-core/object@20.2.2
+  - @ctx-core/svg@12.0.20
+
 ## 6.0.19
 
 ### Patch Changes
