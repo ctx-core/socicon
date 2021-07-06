@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 6.0.33
+
+### Patch Changes
+
+- update dependencies
+
 ## 6.0.32
 
 ### Patch Changes
