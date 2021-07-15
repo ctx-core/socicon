@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "7.0.1",
+	"version": "7.0.2",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -16,6 +16,7 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
+	"type": "module",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -28,17 +29,17 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.1",
-		"@ctx-core/combinators": "workspace:^8.0.1",
-		"@ctx-core/function": "workspace:^20.0.1",
-		"@ctx-core/html": "workspace:^11.0.1",
-		"@ctx-core/object": "workspace:^21.0.1",
-		"@ctx-core/svg": "workspace:^13.0.1",
+		"@ctx-core/array": "workspace:^23.0.2",
+		"@ctx-core/combinators": "workspace:^8.0.2",
+		"@ctx-core/function": "workspace:^20.0.2",
+		"@ctx-core/html": "workspace:^11.0.2",
+		"@ctx-core/object": "workspace:^21.0.2",
+		"@ctx-core/svg": "workspace:^13.0.2",
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^10.0.1",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.26",
+		"@ctx-core/cli-args": "workspace:^10.0.2",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.27",
 		"esm": "^3.2.25",
 		"globby": "^11.0.4",
 		"htmlparser2": "^6.1.0",
