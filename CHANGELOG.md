@@ -1,5 +1,21 @@
 # @ctx-core/socicon
 
+## 7.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.0
+  - @ctx-core/combinators@8.0.0
+  - @ctx-core/function@20.0.0
+  - @ctx-core/html@11.0.0
+  - @ctx-core/object@21.0.0
+  - @ctx-core/svg@13.0.0
+
 ## 6.0.46
 
 ### Patch Changes
