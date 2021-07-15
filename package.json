@@ -32,7 +32,7 @@
 		"@ctx-core/array": "workspace:^23.0.2",
 		"@ctx-core/combinators": "workspace:^8.0.2",
 		"@ctx-core/function": "workspace:^20.0.2",
-		"@ctx-core/html": "workspace:^11.0.2",
+		"@ctx-core/html": "workspace:^11.0.3",
 		"@ctx-core/object": "workspace:^21.0.2",
 		"@ctx-core/svg": "workspace:^13.0.3",
 		"svelte": "3.38.3"
