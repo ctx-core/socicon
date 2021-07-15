@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 7.0.6
+
+### Patch Changes
+
+- fix: import.meta.url instead of \_\_dirname
+
 ## 7.0.5
 
 ### Patch Changes

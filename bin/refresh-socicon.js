@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { Parser } from 'htmlparser2'
 import { readFile, writeFile } from 'fs/promises'
-import { join } from 'path'
+import { dirname, join } from 'path'
 import { keys } from '@ctx-core/object'
 import { map, sort } from '@ctx-core/array'
 import { param_r_ } from '@ctx-core/cli-args'
@@ -9,7 +9,7 @@ await main()
 async function main() {
 	const { dir } = opts_()
 	const svg_path = join(dir, `font/socicon.svg`)
-	const root_path = join(__dirname, '/../')
+	const root_path = join(dirname(new URL(import.meta.url).pathname), '/../')
 	const component_name_r_html = {}
 	await component_name_r_html_assign()
 	await files_write()
