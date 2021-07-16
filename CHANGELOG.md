@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 7.0.7
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.3
+  - @ctx-core/combinators@8.0.3
+  - @ctx-core/function@20.0.3
+  - @ctx-core/html@11.0.4
+  - @ctx-core/object@21.0.3
+  - @ctx-core/svg@13.0.6
+
 ## 7.0.6
 
 ### Patch Changes
