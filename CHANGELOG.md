@@ -1,5 +1,31 @@
 # @ctx-core/socicon
 
+## 7.0.14
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.11
+  - @ctx-core/combinators@8.0.11
+  - @ctx-core/function@20.0.10
+  - @ctx-core/html@11.0.11
+  - @ctx-core/object@21.0.10
+  - @ctx-core/svg@13.0.13
+
+## 7.0.13
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.10
+  - @ctx-core/combinators@8.0.10
+  - @ctx-core/function@20.0.9
+  - @ctx-core/html@11.0.10
+  - @ctx-core/object@21.0.9
+  - @ctx-core/svg@13.0.12
+
 ## 7.0.12
 
 ### Patch Changes
