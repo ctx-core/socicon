@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 7.0.11
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.9
+  - @ctx-core/combinators@8.0.9
+  - @ctx-core/function@20.0.8
+  - @ctx-core/html@11.0.9
+  - @ctx-core/object@21.0.8
+  - @ctx-core/svg@13.0.10
+
 ## 7.0.10
 
 ### Patch Changes
