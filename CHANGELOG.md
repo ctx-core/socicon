@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 7.0.10
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.8
+  - @ctx-core/combinators@8.0.8
+  - @ctx-core/function@20.0.7
+  - @ctx-core/html@11.0.8
+  - @ctx-core/object@21.0.7
+  - @ctx-core/svg@13.0.9
+
 ## 7.0.9
 
 ### Patch Changes
