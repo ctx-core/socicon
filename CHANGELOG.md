@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 7.0.17
+
+### Patch Changes
+
+- fix: "exports": "./package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.13
+  - @ctx-core/combinators@8.0.13
+  - @ctx-core/function@20.0.12
+  - @ctx-core/html@11.0.14
+  - @ctx-core/object@21.0.12
+  - @ctx-core/svg@13.0.15
+
 ## 7.0.16
 
 ### Patch Changes
