@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "7.0.15",
+	"version": "7.0.16",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -22,7 +22,8 @@
 	"types": "./dist/index.d.ts",
 	"exports": {
 		"require": "./dist/index.cjs",
-		"import": "./dist/index.js"
+		"import": "./dist/index.js",
+		"package.json": "./package.json"
 	},
 	"bin": {
 		"refresh-socicon": "./bin/refresh-socicon.mjs"
@@ -37,16 +38,16 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.11",
-		"@ctx-core/combinators": "workspace:^8.0.11",
-		"@ctx-core/function": "workspace:^20.0.10",
-		"@ctx-core/html": "workspace:^11.0.12",
-		"@ctx-core/object": "workspace:^21.0.10",
-		"@ctx-core/svg": "workspace:^13.0.13",
+		"@ctx-core/array": "workspace:^23.0.12",
+		"@ctx-core/combinators": "workspace:^8.0.12",
+		"@ctx-core/function": "workspace:^20.0.11",
+		"@ctx-core/html": "workspace:^11.0.13",
+		"@ctx-core/object": "workspace:^21.0.11",
+		"@ctx-core/svg": "workspace:^13.0.14",
 		"svelte": "3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^10.0.11",
+		"@ctx-core/cli-args": "workspace:^10.0.12",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.35",
 		"esm": "^3.2.25",
 		"globby": "^11.0.4",
