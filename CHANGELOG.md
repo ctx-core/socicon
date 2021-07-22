@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 7.0.19
+
+### Patch Changes
+
+- globby: ^11.0.4 -> ^12.0.0
+
 ## 7.0.18
 
 ### Patch Changes
