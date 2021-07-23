@@ -45,7 +45,7 @@
 		"@ctx-core/function": "workspace:^20.0.12",
 		"@ctx-core/html": "workspace:^11.0.14",
 		"@ctx-core/object": "workspace:^21.0.12",
-		"@ctx-core/svg": "workspace:^13.0.20",
+		"@ctx-core/svg": "workspace:^13.0.21",
 		"svelte": "3.40.1"
 	},
 	"devDependencies": {
