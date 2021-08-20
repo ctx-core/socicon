@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 7.0.44
+
+### Patch Changes
+
+- htmlparser2: ^6.1.0 -> ^7.0.0
+
 ## 7.0.43
 
 ### Patch Changes
