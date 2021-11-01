@@ -1,5 +1,20 @@
 # @ctx-core/socicon
 
+## 7.0.77
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- svelte: 3.43.1 -> 3.44.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.22
+  - @ctx-core/combinators@8.0.16
+  - @ctx-core/function@20.2.2
+  - @ctx-core/html@11.0.18
+  - @ctx-core/object@21.0.21
+  - @ctx-core/svg@13.0.77
+
 ## 7.0.76
 
 ### Patch Changes
