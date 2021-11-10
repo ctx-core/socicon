@@ -42,19 +42,19 @@ ${component_name_r_html[Icon_name]}
 	}
 }
 function opts_() {
-	const { help, dir } = param_r_(process.argv.slice(2), {
+	const { help, dir_a } = param_r_(process.argv.slice(2), {
 		help: '-h, --help',
-		dir: '-d, --dir',
+		dir_a: '-d, --dir',
 	})
 	if (help) {
 		console.info(help_msg_())
 		process.exit(0)
 	}
-	const error_a = error_a_(dir)
+	const error_a = error_a_(dir_a)
 	if (error_a) {
 		throw error_a.join('\n')
 	}
-	return { dir }
+	return { dir: dir_a[0] }
 }
 function help_msg_() {
 	return `
@@ -66,9 +66,9 @@ Options:
 -d, --dir   Socicon directory path
 		`.trim()
 }
-function error_a_(dir) {
+function error_a_(dir_a) {
 	const error_a = []
-	if (!dir) {
+	if (!dir_a) {
 		error_a.push('missing --dir <socicon-dir>')
 	}
 	return error_a.length && error_a

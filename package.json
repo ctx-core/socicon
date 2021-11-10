@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "7.0.78",
+	"version": "7.0.79",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,9 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"main": "./dist/index.cjs",
+	"main": "./dist/index.js",
 	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"types": "./src/index.ts",
 	"exports": {
 		".": {
 			"require": "./dist/index.cjs",
@@ -31,27 +31,26 @@
 		"refresh-socicon": "./bin/refresh-socicon.mjs"
 	},
 	"scripts": {
-		"build": "npm run clean && npm run copy-mjs && npm run copy-components && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
-		"compile": "./node_modules/.bin/tsc -b .",
-		"copy-mjs": "cd dist && echo \"module.exports = (async () => import('./index.js'))()\" > index.cjs",
-		"copy-components": "cd src && find . | grep \\.svelte$ | awk '{print \"mkdir -p dirname \"$1\" && cp -f \"$1\" ../dist/\"$1}'",
+		"build": "npm run compile",
+		"clean": "rm -rf dist",
+		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.22",
-		"@ctx-core/combinators": "workspace:^8.0.16",
-		"@ctx-core/function": "workspace:^20.2.2",
-		"@ctx-core/html": "workspace:^11.0.18",
-		"@ctx-core/object": "workspace:^21.0.21",
-		"@ctx-core/svg": "workspace:^13.0.78",
+		"@ctx-core/array": "workspace:^23.0.23",
+		"@ctx-core/combinators": "workspace:^8.0.17",
+		"@ctx-core/function": "workspace:^20.2.3",
+		"@ctx-core/html": "workspace:^11.0.19",
+		"@ctx-core/object": "workspace:^21.0.22",
+		"@ctx-core/svg": "workspace:^13.0.79",
 		"svelte": "3.44.1"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^10.0.22",
+		"@ctx-core/cli-args": "workspace:^11.0.0",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.77",
-		"esm": "^3.2.25",
+		"@swc/cli": "^0.1.51",
+		"@swc/core": "^1.2.107",
 		"globby": "^12.0.2",
 		"htmlparser2": "^7.1.2",
 		"resolve": "^1.20.0",
