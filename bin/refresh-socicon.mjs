@@ -2,9 +2,9 @@
 import { Parser } from 'htmlparser2'
 import { readFile, writeFile } from 'fs/promises'
 import { dirname, join } from 'path'
-import { keys } from '@ctx-core/object'
 import { map, sort } from '@ctx-core/array'
 import { param_r_ } from '@ctx-core/cli-args'
+import { keys } from '@ctx-core/object'
 await main()
 async function main() {
 	const { dir } = opts_()
