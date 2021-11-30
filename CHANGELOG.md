@@ -1,5 +1,35 @@
 # @ctx-core/socicon
 
+## 7.0.84
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.0.27
+  - @ctx-core/combinators@8.0.21
+  - @ctx-core/function@20.2.7
+  - @ctx-core/html@11.0.23
+  - @ctx-core/object@21.0.26
+  - @ctx-core/svg@14.0.3
+
+## 7.0.83
+
+### Patch Changes
+
+- svelte: 3.44.1 -> 3.44.2
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svg@14.0.2
+  - @ctx-core/array@23.0.26
+  - @ctx-core/combinators@8.0.20
+  - @ctx-core/function@20.2.6
+  - @ctx-core/html@11.0.22
+  - @ctx-core/object@21.0.25
+
 ## 7.0.82
 
 ### Patch Changes
