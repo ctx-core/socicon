@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "7.0.84",
+	"version": "7.0.85",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -38,19 +38,19 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.27",
-		"@ctx-core/combinators": "workspace:^8.0.21",
-		"@ctx-core/function": "workspace:^20.2.7",
-		"@ctx-core/html": "workspace:^11.0.23",
-		"@ctx-core/object": "workspace:^21.0.26",
-		"@ctx-core/svg": "workspace:^14.0.3",
+		"@ctx-core/array": "workspace:^23.0.28",
+		"@ctx-core/combinators": "workspace:^8.0.22",
+		"@ctx-core/function": "workspace:^20.2.8",
+		"@ctx-core/html": "workspace:^11.0.24",
+		"@ctx-core/object": "workspace:^21.0.27",
+		"@ctx-core/svg": "workspace:^14.0.4",
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^11.0.4",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.80",
+		"@ctx-core/cli-args": "workspace:^11.0.5",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.81",
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.113",
+		"@swc/core": "^1.2.116",
 		"globby": "^12.0.2",
 		"htmlparser2": "^7.2.0",
 		"resolve": "^1.20.0",
