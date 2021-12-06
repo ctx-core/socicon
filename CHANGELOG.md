@@ -1,5 +1,16 @@
 # @ctx-core/socicon
 
+## 7.0.91
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+  - @ctx-core/combinators@8.0.25
+  - @ctx-core/html@11.0.28
+  - @ctx-core/svg@14.0.9
+
 ## 7.0.90
 
 ### Patch Changes
