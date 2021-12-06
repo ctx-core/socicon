@@ -1,5 +1,18 @@
 # @ctx-core/socicon
 
+## 7.0.87
+
+### Patch Changes
+
+- @swc/core: ^1.2.117 -> ^1.2.118
+- Updated dependencies
+  - @ctx-core/array@23.0.30
+  - @ctx-core/combinators@8.0.24
+  - @ctx-core/function@20.2.10
+  - @ctx-core/html@11.0.26
+  - @ctx-core/object@21.0.29
+  - @ctx-core/svg@14.0.6
+
 ## 7.0.86
 
 ### Patch Changes
