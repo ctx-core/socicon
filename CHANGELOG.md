@@ -1,5 +1,13 @@
 # @ctx-core/socicon
 
+## 7.0.88
+
+### Patch Changes
+
+- fix: @ctx-core/svg: Icon export
+- Updated dependencies
+  - @ctx-core/svg@14.0.7
+
 ## 7.0.87
 
 ### Patch Changes
