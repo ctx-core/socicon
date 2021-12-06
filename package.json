@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "7.0.89",
+	"version": "7.0.90",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -47,7 +47,7 @@
 		"svelte": "3.44.2"
 	},
 	"devDependencies": {
-		"@ctx-core/cli-args": "workspace:^11.0.8",
+		"@ctx-core/cli-args": "workspace:^11.0.9",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.83",
 		"@swc/cli": "^0.1.52",
 		"@swc/core": "^1.2.118",

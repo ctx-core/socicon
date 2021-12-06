@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 7.0.90
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.0.89
 
 ### Patch Changes
