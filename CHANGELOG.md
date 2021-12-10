@@ -1,5 +1,19 @@
 # @ctx-core/socicon
 
+## 7.0.93
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@22.0.0
+  - @ctx-core/svg@15.0.0
+  - @ctx-core/array@23.0.33
+  - @ctx-core/combinators@8.0.26
+  - @ctx-core/html@11.0.29
+
 ## 7.0.92
 
 ### Patch Changes
