@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.0.0",
+	"version": "8.0.1",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -40,13 +40,13 @@
 	"devDependencies": {
 		"@ctx-core/array": "workspace:^23.0.33",
 		"@ctx-core/cli-args": "workspace:^11.0.11",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.85",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.86",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"htmlparser2": "^7.2.0",
-		"svelte": "3.44.2",
+		"svelte": "^3.44.3",
 		"svelte-preprocess": "^4.10.0",
 		"svelte2tsx": "^0.4.11",
 		"tslib": "^2.3.1",

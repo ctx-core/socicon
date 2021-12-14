@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.0.1
+
+### Patch Changes
+
+- svelte: 3.44.2 -> 3.44.3
+
 ## 8.0.0
 
 ### Major Changes
