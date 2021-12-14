@@ -10,7 +10,7 @@ $: props = unpick($$props, 'class')
 
 <Icon bind:this={node__} class="socicon {$$props.class||''}" {...props}><slot></slot></Icon>
 
-<style type="text/css">
+<style>
 :global(.socicon) {
 	transform: rotate(180deg) scaleX(-1);
 }

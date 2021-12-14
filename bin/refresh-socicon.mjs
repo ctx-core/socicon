@@ -12,11 +12,11 @@ async function main() {
 	const root_path = join(dirname(new URL(import.meta.url).pathname), '/../')
 	const component_name_r_html = {}
 	await component_name_r_html_assign()
-	await files_write()
+	await write_svelte_files()
 	async function component_name_r_html_assign() {
 		const parser = new Parser({
 			onopentag(name, attribs) {
-				const glyph_name = attribs && attribs['glyph-name']
+				const glyph_name = attribs?.['glyph-name']
 				if (name === 'glyph' && glyph_name) {
 					const component_name = `Socicon-${glyph_name}`
 					component_name_r_html[component_name] = `
@@ -29,10 +29,10 @@ async function main() {
 		parser.write(Socicon_svg)
 		parser.end()
 	}
-	async function files_write() {
+	async function write_svelte_files() {
 		const Icon_name_a = sort(keys(component_name_r_html))
 		await Promise.all(map(Icon_name_a, Icon_name => {
-			writeFile(`${root_path}/ui/${Icon_name}.svelte`, `
+			writeFile(`${root_path}/src/${Icon_name}.svelte`, `
 <script>
 import Icon from './Icon.svelte'
 </script>

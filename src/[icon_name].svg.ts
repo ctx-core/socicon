@@ -12,7 +12,7 @@ export const get_ = ((opts = {} as get_opts__T)=>{
 			|| (
 				(icon_name:string)=>
 					resolve_async(
-						join('@ctx-core/socicon/ui', `Socicon-${icon_name}.html`))
+						join('@ctx-core/socicon/dist', `Socicon-${icon_name}.svelte`))
 			)
 	})
 }) as get__T

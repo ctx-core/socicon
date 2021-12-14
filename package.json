@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "7.0.93",
+	"version": "8.0.0",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -17,9 +17,9 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.ts",
 	"exports": {
 		".": {
+			"types": "./src/index.ts",
 			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
@@ -35,23 +35,21 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.33",
-		"@ctx-core/combinators": "workspace:^8.0.26",
-		"@ctx-core/function": "workspace:^20.2.12",
-		"@ctx-core/html": "workspace:^11.0.29",
-		"@ctx-core/object": "workspace:^22.0.0",
-		"@ctx-core/svg": "workspace:^15.0.0",
-		"svelte": "3.44.2"
+		"@ctx-core/svg": "workspace:^16.0.0"
 	},
 	"devDependencies": {
+		"@ctx-core/array": "workspace:^23.0.33",
 		"@ctx-core/cli-args": "workspace:^11.0.11",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.85",
-		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.118",
-		"globby": "^12.0.2",
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"@swc/cli": "^0.1.55",
+		"@swc/core": "^1.2.120",
 		"htmlparser2": "^7.2.0",
-		"resolve": "^1.20.0",
-		"socicon": "^3.0.5",
+		"svelte": "3.44.2",
+		"svelte-preprocess": "^4.10.0",
+		"svelte2tsx": "^0.4.11",
+		"tslib": "^2.3.1",
 		"typescript": "next"
 	},
 	"publishConfig": {
