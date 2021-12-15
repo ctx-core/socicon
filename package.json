@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.0.1",
+	"version": "8.0.2",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -35,12 +35,12 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/svg": "workspace:^16.0.0"
+		"@ctx-core/svg": "workspace:^16.0.1"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^23.0.33",
-		"@ctx-core/cli-args": "workspace:^11.0.11",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.87",
+		"@ctx-core/array": "workspace:^23.0.34",
+		"@ctx-core/cli-args": "workspace:^11.0.12",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.88",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
@@ -56,5 +56,6 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	}
+	},
+	"svelte": "./dist/index.js"
 }

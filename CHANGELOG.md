@@ -1,5 +1,13 @@
 # @ctx-core/socicon
 
+## 8.0.2
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/svg@16.0.1
+
 ## 8.0.1
 
 ### Patch Changes
