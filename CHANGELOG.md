@@ -1,5 +1,13 @@
 # @ctx-core/socicon
 
+## 8.0.4
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/svg@16.0.3
+
 ## 8.0.3
 
 ### Patch Changes
