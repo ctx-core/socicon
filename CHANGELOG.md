@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.0.9
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+
 ## 8.0.8
 
 ### Patch Changes
