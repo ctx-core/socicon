@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.0.7
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+
 ## 8.0.6
 
 ### Patch Changes
