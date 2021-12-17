@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.0.5",
+	"version": "8.0.6",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -17,10 +17,11 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
+	"types": "./dist/index.d.ts",
+	"svelte": "./dist/index.js",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
 	},
@@ -29,20 +30,19 @@
 	},
 	"scripts": {
 		"build": "npm run compile",
-		"clean": "rimraf dist",
+		"clean": "rimraf dist && npm run clean_tsbuildinfo",
+		"clean_tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
 		"compile": "npm run compile_source && npm run compile_declaration",
 		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
-		"compile_declaration": "tsc src/index.ts --declaration --emitDeclarationOnly --declarationDir dist",
+		"compile_declaration": "npm run clean_tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir dist",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
-	"dependencies": {
-		"@ctx-core/svg": "workspace:^16.0.4"
-	},
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^23.0.37",
-		"@ctx-core/cli-args": "workspace:^11.0.15",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.91",
+		"@ctx-core/array": "workspace:^23.0.38",
+		"@ctx-core/cli-args": "workspace:^11.0.16",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.92",
+		"@ctx-core/svg": "workspace:^16.0.5",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
@@ -58,6 +58,5 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	},
-	"svelte": "./dist/index.js"
+	}
 }
