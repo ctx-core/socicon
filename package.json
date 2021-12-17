@@ -41,7 +41,7 @@
 	"devDependencies": {
 		"@ctx-core/array": "workspace:^23.0.41",
 		"@ctx-core/cli-args": "workspace:^11.0.19",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.95",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.96",
 		"@ctx-core/svg": "workspace:^16.0.8",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
