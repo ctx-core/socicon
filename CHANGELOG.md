@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.0.8
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+
 ## 8.0.7
 
 ### Patch Changes
