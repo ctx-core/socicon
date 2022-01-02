@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.0.11
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 8.0.10
 
 ### Patch Changes
