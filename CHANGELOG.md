@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.0.19
+
+### Patch Changes
+
+- update dependencies
+
 ## 8.0.18
 
 ### Patch Changes
