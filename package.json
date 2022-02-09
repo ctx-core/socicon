@@ -39,10 +39,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "*",
-		"@ctx-core/cli-args": "^11.0.25",
-		"@ctx-core/object": "*",
-		"@ctx-core/svg-ui-svelte": "^1.1.14",
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/cli-args": "workspace:^11.0.25",
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/svg-ui-svelte": "workspace:^1.1.14",
 		"htmlparser2": "^7.2.0"
 	},
 	"devDependencies": {
