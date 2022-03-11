@@ -42,7 +42,7 @@
 		"@ctx-core/array": "*",
 		"@ctx-core/cli-args": "^11.0.26",
 		"@ctx-core/object": "*",
-		"@ctx-core/svg-ui-svelte": "^1.1.16",
+		"@ctx-core/svg-ui-svelte": "^1.1.17",
 		"htmlparser2": "^7.2.0"
 	},
 	"devDependencies": {
