@@ -37,9 +37,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.1.4",
-		"@ctx-core/cli-args": "^11.0.29",
-		"@ctx-core/object": "^22.1.5",
+		"@ctx-core/array": "^26.1.5",
+		"@ctx-core/cli-args": "^11.0.30",
+		"@ctx-core/object": "^22.1.6",
 		"@ctx-core/svg-ui-svelte": "^1.1.25",
 		"htmlparser2": "^7.2.0"
 	},
