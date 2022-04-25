@@ -1,5 +1,15 @@
 # @ctx-core/socicon
 
+## 8.0.26
+
+### Patch Changes
+
+- htmlparser2: ^7.2.0 -> ^8.0.0
+- tslib: ^2.3.1 -> ^2.4.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.1.26
+
 ## 8.0.25
 
 ### Patch Changes
