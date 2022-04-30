@@ -41,7 +41,7 @@
 		"@ctx-core/cli-args": "^11.0.33",
 		"@ctx-core/object": "^22.1.9",
 		"@ctx-core/svg-ui-svelte": "^1.1.29",
-		"htmlparser2": "^8.0.0"
+		"htmlparser2": "^8.0.1"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
