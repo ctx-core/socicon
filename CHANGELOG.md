@@ -1,5 +1,13 @@
 # @ctx-core/socicon
 
+## 8.0.34
+
+### Patch Changes
+
+- svelte2tsx: ^0.5.9 -> ^0.5.10
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.1.33
+
 ## 8.0.33
 
 ### Patch Changes
