@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.0.38",
+	"version": "8.0.39",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -38,9 +38,9 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.5.2",
-		"@ctx-core/cli-args": "^11.0.39",
+		"@ctx-core/cli-args": "^11.0.40",
 		"@ctx-core/object": "^22.2.1",
-		"@ctx-core/svg-ui-svelte": "^1.1.38",
+		"@ctx-core/svg-ui-svelte": "^1.1.39",
 		"htmlparser2": "^8.0.1"
 	},
 	"devDependencies": {
