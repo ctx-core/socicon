@@ -1,5 +1,15 @@
 # @ctx-core/socicon
 
+## 8.0.43
+
+### Patch Changes
+
+- svelte2tsx: ^0.5.14 -> ^0.5.15
+- Updated dependencies
+  - @ctx-core/array@26.7.7
+  - @ctx-core/cli-args@11.0.48
+  - @ctx-core/object@22.2.7
+
 ## 8.0.42
 
 ### Patch Changes
