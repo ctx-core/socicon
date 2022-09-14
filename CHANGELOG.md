@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.0.47
+
+### Patch Changes
+
+- svelte2tsx: ^0.5.16 -> ^0.5.17
+
 ## 8.0.46
 
 ### Patch Changes
