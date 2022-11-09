@@ -39,7 +39,7 @@
 	"dependencies": {
 		"@ctx-core/array": "^26.7.8",
 		"@ctx-core/cli-args": "^11.0.49",
-		"@ctx-core/object": "^22.2.8",
+		"@ctx-core/object": "^22.3.0",
 		"@ctx-core/svg-ui-svelte": "^1.2.6",
 		"htmlparser2": "^8.0.1"
 	},
