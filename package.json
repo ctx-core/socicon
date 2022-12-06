@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.0.54",
+	"version": "8.0.55",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -52,7 +52,7 @@
 		"rimraf": "^3.0.2",
 		"svelte": "^3.53.1",
 		"svelte-preprocess": "^4.10.7",
-		"svelte2tsx": "^0.5.21",
+		"svelte2tsx": "^0.5.22",
 		"tslib": "^2.4.1",
 		"typescript": "next"
 	},
