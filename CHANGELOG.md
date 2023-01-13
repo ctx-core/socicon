@@ -1,5 +1,13 @@
 # @ctx-core/socicon
 
+## 8.0.75
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.2.25
+
 ## 8.0.74
 
 ### Patch Changes
