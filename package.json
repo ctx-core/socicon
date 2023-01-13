@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.0.73",
+	"version": "8.0.74",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -49,7 +49,7 @@
 		"@swc/cli": "^0.1.59",
 		"@swc/core": "^1.3.26",
 		"@types/resolve": "^1.20.2",
-		"rimraf": "^3.0.2",
+		"rimraf": "^4.0.1",
 		"svelte": "^3.55.1",
 		"svelte-preprocess": "^5.0.0",
 		"svelte2tsx": "^0.6.0",
