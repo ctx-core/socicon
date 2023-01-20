@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.0.75",
+	"version": "8.0.76",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -40,7 +40,7 @@
 		"@ctx-core/array": "^26.8.10",
 		"@ctx-core/cli-args": "^11.0.59",
 		"@ctx-core/object": "^23.1.0",
-		"@ctx-core/svg-ui-svelte": "^1.2.25",
+		"@ctx-core/svg-ui-svelte": "^1.2.26",
 		"htmlparser2": "^8.0.1"
 	},
 	"devDependencies": {
@@ -51,7 +51,7 @@
 		"@types/resolve": "^1.20.2",
 		"rimraf": "^4.1.1",
 		"svelte": "^3.55.1",
-		"svelte-preprocess": "^5.0.0",
+		"svelte-preprocess": "^5.0.1",
 		"svelte2tsx": "^0.6.0",
 		"tslib": "^2.4.1",
 		"typescript": "next"
