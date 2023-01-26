@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.0.79
+
+### Patch Changes
+
+- tslib: ^2.4.1 -> ^2.5.0
+
 ## 8.0.78
 
 ### Patch Changes
