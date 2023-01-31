@@ -1,5 +1,16 @@
 # @ctx-core/socicon
 
+## 8.0.81
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/array@26.8.13
+  - @ctx-core/cli-args@11.0.62
+  - @ctx-core/object@24.1.1
+  - @ctx-core/svg-ui-svelte@1.2.30
+
 ## 8.0.80
 
 ### Patch Changes
