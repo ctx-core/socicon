@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.0.99
+
+### Patch Changes
+
+- @ctx-core/svg-ui-svelte: ^1.2.44 -> ^1.2.45
+
 ## 8.0.98
 
 ### Patch Changes
