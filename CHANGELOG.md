@@ -1,5 +1,16 @@
 # @ctx-core/socicon
 
+## 8.1.32
+
+### Patch Changes
+
+- @ctx-core/array: ^26.12.0 -> ^26.12.1
+- @ctx-core/object: ^27.1.6 -> ^27.1.7
+- @ctx-core/cli-args: ^11.1.23 -> ^11.1.24
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.2.79
+
 ## 8.1.31
 
 ### Patch Changes
