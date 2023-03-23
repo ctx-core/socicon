@@ -1,5 +1,17 @@
 # @ctx-core/socicon
 
+## 8.1.34
+
+### Patch Changes
+
+- htmlparser2: ^8.0.1 -> ^8.0.2
+- @ctx-core/object: ^27.2.0 -> ^27.3.0
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/svg-ui-svelte@1.2.81
+  - @ctx-core/array@26.12.3
+  - @ctx-core/cli-args@11.1.26
+
 ## 8.1.33
 
 ### Patch Changes
