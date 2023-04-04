@@ -1,5 +1,11 @@
 # @ctx-core/socicon
 
+## 8.1.47
+
+### Patch Changes
+
+- @ctx-core/cli-args: ^11.1.33 -> ^11.2.0
+
 ## 8.1.46
 
 ### Patch Changes
