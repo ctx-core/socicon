@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.1.140",
+	"version": "8.1.141",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -36,10 +36,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.5",
-		"@ctx-core/cli-args": "^11.3.42",
-		"@ctx-core/object": "^28.2.1",
-		"@ctx-core/svg-ui-svelte": "^1.2.186",
+		"@ctx-core/array": "^26.15.6",
+		"@ctx-core/cli-args": "^11.3.43",
+		"@ctx-core/object": "^28.2.2",
+		"@ctx-core/svg-ui-svelte": "^1.2.187",
 		"htmlparser2": "^9.0.0",
 		"svelte": "^4.2.2"
 	},
