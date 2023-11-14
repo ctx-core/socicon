@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.2.1",
+	"version": "8.2.2",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -19,6 +19,7 @@
 	"type": "module",
 	"files": [
 		"*.d.ts",
+		"*.json",
 		"./bin",
 		"./[icon_name].svg",
 		"./ui"
@@ -41,10 +42,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^27.0.1",
-		"@ctx-core/cli-args": "^11.4.1",
-		"@ctx-core/object": "^30.1.1",
-		"@ctx-core/svg-ui-svelte": "^1.3.1",
+		"@ctx-core/array": "^27.0.2",
+		"@ctx-core/cli-args": "^11.4.2",
+		"@ctx-core/object": "^30.1.2",
+		"@ctx-core/svg-ui-svelte": "^1.3.2",
 		"htmlparser2": "^9.0.0",
 		"svelte": "^4.2.3"
 	},
