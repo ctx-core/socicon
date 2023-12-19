@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import { map, sort } from '@ctx-core/array'
 import { param_r_ } from '@ctx-core/cli-args'
-import { keys } from '@ctx-core/object'
+import { map, sort } from 'ctx-core/array'
+import { keys } from 'ctx-core/object'
 import { readFile, writeFile } from 'fs/promises'
 import { Parser } from 'htmlparser2'
 import { dirname, join } from 'path'
