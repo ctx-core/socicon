@@ -1,5 +1,14 @@
 # @ctx-core/socicon
 
+## 8.2.105
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - ctx-core@5.18.8
+  - @ctx-core/svg-ui-svelte@1.3.106
+
 ## 8.2.104
 
 ### Patch Changes
