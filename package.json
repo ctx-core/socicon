@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/socicon",
-	"version": "8.2.109",
+	"version": "8.2.110",
 	"description": "ctx-core socicon",
 	"keywords": [
 		"ctx-core",
@@ -44,8 +44,8 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/svg-ui-svelte": "^1.3.110",
-		"ctx-core": "^5.19.2",
+		"@ctx-core/svg-ui-svelte": "^1.3.111",
+		"ctx-core": "^5.20.0",
 		"htmlparser2": "^9.1.0",
 		"svelte": "^4.2.8"
 	},
