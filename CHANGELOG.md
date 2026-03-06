@@ -1,5 +1,14 @@
 # @ctx-core/socicon
 
+## 8.2.257
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+  - @ctx-core/svg-ui-svelte@1.3.258
+
 ## 8.2.256
 
 ### Patch Changes
